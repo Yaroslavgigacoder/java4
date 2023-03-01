@@ -14,7 +14,8 @@ public class Main{
             if (word.equals("print")) {
                for (int i = 0; i < list.size(); i++) {
                     if (numberString.equals(list.get(i))) { 
-                        System.out.println(list.get(i+1));      
+                        System.out.println(list.get(i+1));
+                        list.remove(i);      
                     }
                 }
             }
